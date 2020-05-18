@@ -1,0 +1,39 @@
+<div class="image">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h2>Question List</h2>
+        </div>
+        <div class="panel-body">
+            <label class="table table-dark table-bordered table-stripped">
+                <thead>
+                    <tr>
+
+                        
+                        <th>Question</th>
+                        <th>QuestionDomain</th>
+                        <th>QuestionMarks</th>
+                        <th>Option1</th>
+                        <th>Option2</th>
+                        <th>Option3</th>
+                        <th>Option4</th>
+                        <th>CorrectOption</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let question of questions | async">
+
+                        <td>{{question.questionValue}}</td>
+                        <td>{{question.questionDomain}}</td>
+                        <td>{{question.questionMarks}}</td>
+                        <td>{{question.option1}}</td>
+                        <td>{{question.option2}}</td>
+                        <td>{{question.option3}}</td>
+                        <td>{{question.option4}}</td>
+                        <td>{{question.correctOption}}</td>
+                    </tr>
+                </tbody>
+            </label>
+        </div>
+    </div>
+</div>
+

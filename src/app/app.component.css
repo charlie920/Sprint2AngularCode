@@ -1,0 +1,20 @@
+
+ .image{
+    height:67em; 
+    background-size:cover;
+    width:auto;
+    background-image:url('https://github.com/rayO7/com.capgemini.assignment/blob/master/projectLOGO/WhatsApp%20Image%202020-05-07%20at%2012.42.08.jpeg?raw=true'); 
+    background-position:50% 50%;
+  }
+  .card-body {
+text-align: center;
+}#p1 {
+font-size: 51px;
+font-family: serif;
+}
+ul.navbar-nav {
+margin-left: 567px;
+}
+li.nav-item {
+margin-right: 16px;
+}
